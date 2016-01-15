@@ -23,6 +23,6 @@
   "devDependencies": {
     "cluster": "^0.7.7",
   },
-  "license":"GPLv3"
+  "license":"BSD"
 }
 
