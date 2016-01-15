@@ -1,0 +1,28 @@
+{
+  "name": "beaconCatcher",
+  "version": "1.0.0",
+  "description": "App to collect, GeoIP Match, and Massage performance beacon data",
+  "author": "Ben Hastings <ben.hastings@gmail.com>",
+  "repository":{
+     "type":"git",
+     "url":"https://github.com/benhastings/beaconCatcher"
+  },
+  "bugs":{
+     "url":"https://github.com/benhastings/beaconCatcher/issues"
+  },
+  "keywords":{
+    "RUM",
+    "javascript",
+    "node",
+    "metrics"
+  },
+  "dependencies": {
+    "geoip-lite": "*",
+    "useragent": "^2.1.7"
+  },
+  "devDependencies": {
+    "cluster": "^0.7.7",
+  },
+  "license":"GPLv3"
+}
+
