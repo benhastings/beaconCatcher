@@ -46,5 +46,7 @@ NOTE: any JS you deploy should be minified - be sure to use a good minifier afte
 ## Future Plans
 * integrate with InfluxDB instead of statsD/graphite
 
+beaconCatcher is free software/open source, and is distributed under the [BSD license](http://opensource.org/licenses/BSD-3-Clause).
 
+beaconCatcher was created and is maintained by Ben Hastings.
 
