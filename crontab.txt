@@ -1,0 +1,13 @@
+# m h  dom mon dow   command
+# Keep beaconCatcher running
+* * * * * sh /home/ubuntu/beaconCatcher/startBeaconCatcher.sh
+
+# Zip & upload all logs to S3
+*/5 * * * * python /home/ubuntu/beaconCatcher/logZip.py
+
+# Upload all logs to S3
+*/5 * * * * sh /home/ubuntu/beaconCatcher/logMove.sh
+
+# End of day cleanup before the cluster is destroyed
+5 0 * * * sudo rm /home/ubuntu/beaconCatcher/beaconCatcher.js
+20 0 * * * sudo killall node
