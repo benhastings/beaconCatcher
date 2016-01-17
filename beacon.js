@@ -181,7 +181,7 @@ var beacon = {
                     // build full URL then append the image to the body
                     beacon.trackItem(beaconEndpoint + "/pageReport?" + pageBase);
                 } else{
-                    setTimeout(beacon.sendPage, 100);
+                    setTimeout(beacon.sendPage(beaconEndpoint), 100);
                 }
             }
         }
