@@ -10,18 +10,18 @@
   "bugs":{
      "url":"https://github.com/benhastings/beaconCatcher/issues"
   },
-  "keywords":{
+  "keywords":[
     "RUM",
     "javascript",
     "node",
     "metrics"
-  },
+  ],
   "dependencies": {
     "geoip-lite": "*",
     "useragent": "^2.1.7"
   },
   "devDependencies": {
-    "cluster": "^0.7.7",
+    "cluster": "^0.7.7"
   },
   "license":"BSD"
 }
