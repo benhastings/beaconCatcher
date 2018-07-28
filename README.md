@@ -3,6 +3,8 @@ extremely lightweight RUM solution including JS beacon, nodeJS application to co
 
 This was built with the assumption of using AWS - adjustments will need to be made for using another deployment methodology.
 
+This repo is the initial public repository of previous work created in a private repo.
+
 ## Quick Start
 ### beaconCatcher
 * install node for your platform
